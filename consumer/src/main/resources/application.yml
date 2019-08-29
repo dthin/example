@@ -1,0 +1,14 @@
+server:
+  port: 8082
+dubbo:
+  application:
+    name: consumer
+  registry:
+    address: 192.168.100.113
+    protocol: zookeeper
+    username: yjcloud
+    password: yjcloud
+    port: 2181
+  protocol:
+    name: dubbo
+    port: 20880

@@ -1,0 +1,16 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: provider
+  registry:
+    address: 192.168.100.113
+    protocol: zookeeper
+    username: yjcloud
+    password: yjcloud
+    port: 2181
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: com.example.provider.com.example.service
