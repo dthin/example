@@ -12,5 +12,3 @@ dubbo:
   protocol:
     name: dubbo
     port: 20880
-  scan:
-    base-packages: com.example.provider.com.example.service
