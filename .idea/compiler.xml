@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="consumer" />
         <module name="client" />
-        <module name="example" />
         <module name="provider" />
       </profile>
     </annotationProcessing>
